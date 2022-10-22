@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Perfil de Usuario</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <style> @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');</style>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header">
+        <p class="logo">PONEI</p>
+        <ul class="opcoes">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">AGENDA</a></li>
+            <li><a href="#">MODO FOCO</a></li>
+            </ul>
+    </header>
+    
+    <!--FIM DO HEADER-->
+
+    <!--MAIN-->
+
+    <!--FORMULARIO-->
+  <div class="container">
+      <div id="form-contato" class="col-6 col-lg-6 form">
+        <h2>Atualize seu Perfil:</h2>
+        <div class="col-12 nome">
+          <label for="inputNome">Nome</label>
+          <input type="text" class="form-control" id="inputNome" required placeholder="Digite seu nome">
+        </div>
+        <div class="col-12 aniversario">
+          <label for="inputAniversario">Aniversario</label>
+          <input type="text" class="form-control" id="inputAniversario" required placeholder="Digite seu aniversario">
+        </div>
+        <div class="col-12 email">
+          <label for="inputEmail">E-mail</label>
+          <input type="email" class="form-control" id="inputEmail" required placeholder="E-mail">
+        </div>
+        <div class="col-12 status">
+          <label for="inputStatus">Status</label>
+          <input type="text" class="form-control" id="inputStatus" placeholder="Status profissional atual">
+        </div>
+        <div class="buttons-group row">
+            <div class="col-sm-12">
+              <input type="button" class="btn" id="btnInsert" value="Salvar">
+            </div>
+          </div>
+      </div>
+      </div>
+      <!--FIM DO FORMULARIO-->
+      
+
+      <!--PERFIL DO USUARIO-->
+    <div class="col-6 col-lg-6 card">
+        <div class="perfil">
+            <div class="fotoDoUsuario">
+                <img src="/img/user-profile.png" alt="foto de perfil do usuario">
+            </div>
+            
+            <div id="tela" >
+            </div>
+    </div>
+
+    <!--FINAL DO PERFIL DO USUARIO-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
