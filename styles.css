@@ -9,14 +9,15 @@ a {
   padding: 0px;
   list-style: none;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 .header a{
   color: white;
 }
 img {
+  justify-content: center;
   max-width: 250px;
   max-height: 150px;
-  justify-content: center;
 }
 .card a{
   color: black;
@@ -58,7 +59,7 @@ img {
     box-shadow: 0 15px 25px #6aa3dd;
     width: 700px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-top: 80px;
   }
 
   .buttons-group{
@@ -81,11 +82,10 @@ img {
     box-sizing: border-box;
     box-shadow: 0 15px 25px #6aa3dd;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .card img{
-    display: flex;  
-    justify-content: center;
+    display: flex; 
     flex-direction: row-reverse;
   }
