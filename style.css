@@ -50,6 +50,12 @@ img {
   margin-left: 30px;
 }
 
+@media(max-width: 600px){
+  .header a{
+    display: none;
+  }
+}
+
 /*--------BODY----------*/
 
 
@@ -60,6 +66,7 @@ img {
     width: 700px;
     padding: 20px;
     margin-top: 80px;
+    border-radius: 10px;
   }
 
   .buttons-group{
@@ -69,6 +76,15 @@ img {
   .btn{
   background-color:#56a1ed;
   }
+
+
+  @media(max-width: 600px){
+    .form{
+      margin-left: 90px;
+    }
+  }
+
+
  /*---------CARD-----------*/
 
   .card {
@@ -88,4 +104,12 @@ img {
   .card img{
     display: flex; 
     flex-direction: row-reverse;
+  }
+
+  @media(max-width: 600px){
+    .card{
+      display: inline;
+      margin-top: 500px;
+      margin-right: 50px;
+    }
   }
