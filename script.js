@@ -79,4 +79,3 @@ function deletarAnterior(){
 // Configura os botões
 document.getElementById ('btnInsert').addEventListener ('click',deletarAnterior);
 document.getElementById ('btnInsert').addEventListener ('click',incluirContato);
-localStorage.clear()
