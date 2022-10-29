@@ -8,7 +8,7 @@ function leDados () {
     }
     else {
         objDados = { contatos: [ 
-                    {nome:"Maria Eduarda",aniversario:"12/02",email:"dudinha.maria@gmail.com",status:"estudante universitária"}
+                    {"nome":"Maria Eduarda","aniversario":"12/02","email":"dudinha.maria@gmail.com","status":"estudante universitária"}
     ]}
     }
     return objDados;
@@ -79,4 +79,4 @@ function deletarAnterior(){
 // Configura os botões
 document.getElementById ('btnInsert').addEventListener ('click',deletarAnterior);
 document.getElementById ('btnInsert').addEventListener ('click',incluirContato);
-
+localStorage.clear()
