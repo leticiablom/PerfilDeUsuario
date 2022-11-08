@@ -7,7 +7,7 @@ function leDados () {
         objDados = JSON.parse (strDados);
     }
     else {
-        objDados = { contatos: [ 
+        objDados = { "contatos": [ 
                     {"nome":"Maria Eduarda","aniversario":"12/02","email":"dudinha.maria@gmail.com","status":"estudante universitária"}
     ]}
     }
