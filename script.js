@@ -74,8 +74,11 @@ function deletarAnterior(){
 }
 
 
-
+function refreshPage(){
+    window.location.reload(true);
+}
 
 // Configura os botões
-document.getElementById ('btnInsert').addEventListener ('click',deletarAnterior);
-document.getElementById ('btnInsert').addEventListener ('click',incluirContato);
+document.getElementById('btnInsert').addEventListener ('click', deletarAnterior);
+document.getElementById('btnInsert').addEventListener ('click', incluirContato);
+document.getElementById('btnInsert').addEventListener ('click', refreshPage);
